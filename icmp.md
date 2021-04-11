@@ -1,0 +1,2 @@
+- `ping -ag <ip>`
+- `fping <cidr>`

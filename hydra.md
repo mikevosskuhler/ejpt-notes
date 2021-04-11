@@ -1,0 +1,4 @@
+-   `hydra -U <module>` get module details
+-   `hydra -L users.txt -P passwords.txt <service://<server> <options>`
+-   `hydra crackme.site http-post-form "login.php:usr=^USER^&pwd=^PASS^:login failed" -L /usr/share/ncrack/minimal.usr -P /usr/share/seclists/Passwords/rockyou-15.txt -f (quit after success) -v (verbose)`
+-   `hydra <ip> ssh -L <userlist> -P <pwdfile>`

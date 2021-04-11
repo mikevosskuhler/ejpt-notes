@@ -1,0 +1,10 @@
+-   [PowerUp](https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1)
+- Unquoted servicepath
+- writable service executable
+- SeImpersonatePrivilege permissions
+	- load incognito
+	- impersonate_token
+- scheduler --> programfiles x86\\systemscheduler
+	- wscheduler.exe
+	- check the events directory for frequently run processes 
+- `JuicyPotato.exe -l 1337 -p c:\windows\system32\cmd.exe -a "/c c:\users\public\desktop\evil.exe" -t \*`

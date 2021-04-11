@@ -1,0 +1,12 @@
+-   [samba suite](https://samba.org)
+-   `enum4linux <ip>`**get everything** 
+-   `nmblookup -A <target>` samba nbtstat alternative
+-   `smbclient -L (enum services) //<target> -N (no passw)`  list smb shares
+-   `smbclient //<ip>/IPC$ -N`Null logon
+-   `enum <ip> -S (shares) -U (users) -P (check pw policy)` 
+-   `enum4linux -n (nbtstat) -P (password policy) -S (enum shares) -s <sharelist> (bruteforce enum shares) -a (all options)` perl script to enum windows host
+-   `/usr/share/enum4linux/share-list.txt` list of common shares for bruteforce
+-   `python /usr/share/doc/python-impacket-doc/examples/samrdump.py <ip>` enum user details
+-   `nmap -script=smb-enum-shares <ip>` 
+-   `nmap -script=smb-enum-users <ip>` 
+-   `nmap -script=smb-brute <ip>` bruteforce creds

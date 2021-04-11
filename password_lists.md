@@ -1,0 +1,2 @@
+-   `apt-get install seclists` /usr/share/seclists/passwords
+-   `/usr/share/crackme/minimal.usr`

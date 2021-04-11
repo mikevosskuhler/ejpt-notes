@@ -1,0 +1,2 @@
+- `gobuster dir -u <address> -w <wordlist> -x php,sh,txt,cgi,js,css,html,py,asp,jsa,php3/4/5,phtml,phps`
+- `Dirb <url> <wordlist> -a <agent> -c <cookies> -H <headers> -r <non recursive> -z <delay in ms> -X <extensions (, separated)>`

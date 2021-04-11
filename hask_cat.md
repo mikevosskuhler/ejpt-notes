@@ -1,0 +1,1 @@
+-   `hashcat -m <algoritm> -o <outfile> -b (initial test) -d <device> -O (optimize performance)`
