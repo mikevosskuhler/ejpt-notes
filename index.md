@@ -15,6 +15,7 @@
 
 ### SQL injection
 - [[sql]]
+- [mysql cli](https://dev.mysql.com/doc/refman/8.0/en/mysql.html)
 
 ### Web shells
 - [[web_shells]]
@@ -34,7 +35,7 @@
 - [[linux_smb_enum]]
 
 ## ARP poisoning
--   configure routing `echo 1 > /rpoc/sys/net/ipv4/ip_forward`
+-   configure routing `echo 1 > /rpoc/sys/net/ipv4/ip_forward`OR `sudo sysctl -w net.ipv4.ip_forward=1`
 -   `arpspoof -i <interface> -t <target victim> -r <host victim>` 
 -   use wireshark to watch the traffic pass through
 

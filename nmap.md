@@ -7,6 +7,7 @@
 - `A` OS and version detection
 - `-reason` details on closed / open status
 - `--script= vuln` get cve's
+- `iL` Host list
 
 ```bash
 fping 1.2.3.0/24 > output.txt
