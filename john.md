@@ -6,3 +6,9 @@
 -  `wget https://raw.githubusercontent.com/magnumripper/JohnTheRipper/bleeding-jumbo/run/ssh2john.py` get ssh2john
 -  `python ssh2john.py id_rsa > outfile` 
 -    `john --wordlist=<wordlist> outfile`
+-    `/usr/share/john/ssh2john.py idrsa(1).id_rsa > ssh_key`
+
+## basic cracking
+- `cat hash | hashid # get hash format`
+- `john hash --format=<format> --wordlist=/usr/share/wordlist/rockyou.txt`
+- `john hash --format=<format> --show`

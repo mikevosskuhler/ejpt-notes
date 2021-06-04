@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "9a20b3015a557afd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ae9ca39977fe62b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "metasploit.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "6d30183cef952274",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "linux_privesc.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "05ee55ad50a5e9a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "a70e8689a33812ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c766f2249eae1f27",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "558926b72c309dab",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "suggest",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b4d7cd4cf781f7ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ef948de104f8089",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da9d1795bec43b8e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "metasploit.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "4ae9ca39977fe62b",
+  "lastOpenFiles": [
+    "metasploit.md",
+    "nmap.md",
+    "john.md",
+    "index.md",
+    "windows_privesc.md",
+    "msfvenom.md",
+    "Network Protocols.md",
+    "linux_smb_enum.md",
+    "Untitled.md",
+    "linux_privesc.md"
+  ]
+}

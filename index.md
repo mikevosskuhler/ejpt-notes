@@ -24,6 +24,8 @@
 -   [[john]]
 - [[password_lists]]
 - [[hask_cat]]
+- [hash-id](https://pypi.org/project/hashID)
+- https://www.tunnelsup.com/hash-analyzer/
 -   `ophcrack`
 - [[hydra]]
 -   [one-rule-to-rule-them-all/](https://notsosecure.com/one-rule-to-rule-them-all/)
