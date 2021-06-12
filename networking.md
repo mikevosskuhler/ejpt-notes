@@ -17,3 +17,6 @@ get
 generate <payload type>
 ```
 listen with wireshark / tcpdump **(on relevant interface!!)**
+
+## meterpreter routing
+http://blog.safebuff.com/2017/01/02/Meterpreter-Proxy-and-Route/
