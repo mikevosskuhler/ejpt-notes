@@ -30,7 +30,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         with: 
-          repository: git@github.com:mikevosskuhler/ejpt-notes.wiki.git
+          repository: mikevosskuhler/ejpt-notes.wiki.git
           token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
           path: wiki
 
